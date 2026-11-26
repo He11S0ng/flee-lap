@@ -1,5 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head><title>My Website</title></head>
-<body><h1>Welcome to my personal developer website!</h1></body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FleeLap | Software Developer &amp; Self-Hosting Journey</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { background: #0f172a; color: #f8fafc; line-height: 1.7; padding: 2rem; }
+    .container { max-width: 850px; margin: 0 auto; }
+    header { text-align: center; padding: 3rem 0; border-bottom: 1px solid #1e293b; }
+    h1 { font-size: 2.5rem; color: #38bdf8; margin-bottom: 0.5rem; }
+    .subtitle { color: #94a3b8; font-size: 1.1rem; }
+    .badge { display: inline-block; background: #1e293b; color: #38bdf8; border: 1px solid #334155; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem; margin-top: 0.75rem; }
+    section { padding: 2.5rem 0; border-bottom: 1px solid #1e293b; }
+    h2 { color: #e2e8f0; margin-bottom: 1rem; font-size: 1.5rem; }
+    p { color: #cbd5e1; margin-bottom: 1rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    .skill { background: #1e293b; color: #38bdf8; padding: 0.4rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #1e293b; padding: 1.5rem; border-radius: 10px; border: 1px solid #334155; }
+    .card h3 { color: #38bdf8; margin-bottom: 0.5rem; }
+    .card p { color: #cbd5e1; font-size: 0.95rem; margin-bottom: 0; }
+    footer { text-align: center; padding-top: 2rem; color: #64748b; font-size: 0.9rem; }
+    a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FleeLap Development</h1>
+      <p class="subtitle">Full-Stack Web Developer &amp; Open-Source Learner (@He11S0ng)</p>
+      <span class="badge">Based in Sudan &bull; Building &amp; Self-Hosting</span>
+    </header>
+
+    <section>
+      <h2>About My Journey</h2>
+      <p>Hello! I am an aspiring software developer from Sudan passionate about web development, backend engineering, and server administration.</p>
+      <p>Due to regional restrictions and limited access to many international cloud services and payment gateways, I turned this challenge into an opportunity to master <strong>self-hosting</strong>. I configure my own local servers, manage databases, and deploy full-stack applications directly from my machine to practice real-world web engineering.</p>
+    </section>
+
+    <section>
+      <h2>Technical Stack</h2>
+      <div class="skills">
+        <span class="skill">PHP</span>
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">MySQL / MariaDB</span>
+        <span class="skill">Apache Server</span>
+        <span class="skill">Python</span>
+        <span class="skill">Git &amp; GitHub</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Self-Hosted Web Platform</h3>
+          <p>A dynamic web application built with PHP, JavaScript, and MariaDB, hosted directly on a hardened local XAMPP server.</p>
+        </div>
+        <div class="card">
+          <h3>Server Hardening Automation</h3>
+          <p>Python scripts created to automate Apache, PHP, and database security configurations for safe public exposure.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Connect with me on <a href="https://github.com" target="_blank">GitHub (@He11S0ng)</a> &bull; Powered by FleeLap</p>
+    </footer>
+  </div>
+</body>
 </html>
